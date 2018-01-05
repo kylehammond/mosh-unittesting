@@ -51,8 +51,8 @@ A guideline for testing could be a pyramid with E2E at the top, integration midd
  Integration
     Unit
     
-As you go up, it gets more costly to do, but more confident - and vice versa
-As you go down the pyramid widens, indicating HOW MUCh you should do that type of test BECAUSE OF COST TO DO TEST.  Unit tests are cheap so we should do a lot
+As you go up, it gets more costly to do, but more confident - and vice versa  
+As you go down the pyramid widens, indicating HOW MUCH you should do that type of test BECAUSE OF COST TO DO TEST.  Unit tests are cheap so we should do a lot
 
 This ratio depends on your project
 
@@ -79,4 +79,6 @@ ReSharper's test runner is very effective/productivity booster
 
 
 ### Source code
+Downloaded the starter source code and complete source code and added to repository.
 
+### 
