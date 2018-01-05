@@ -63,15 +63,17 @@ UT are great for quickly testing logic on conditional/loop and complex logic
 
 To write tests you can use a testing framework
 
-NUnit - older but good
-MSTest - built into VS
-xUnit - gaining popularity
+**NUnit** - older but good  
+**MSTest** - built into VS  
+**xUnit** - gaining popularity  
 
 Each gives a library and test runner
 - utlity library helps you write tests
 - test runner runs the tests and gives you passing/failing
 
 Focus on fundamentals, not tooling
+
+This course will show MSTest but focus on NUnit
 
 ReSharper's test runner is very effective/productivity booster
 
