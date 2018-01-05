@@ -1,7 +1,7 @@
 ## My notes while watching the videos
 
 ### What is automated testing
-automated testing the practice of writing code to test our code, and then run those tests in an automated fashion
+automated testing - the practice of writing code to test our code, and then run those tests in an automated fashion
 
 code projects split into
 - prod code
@@ -43,4 +43,38 @@ why should we write code to test code?
   - very slow
   - very brittle
 
+### Test pyramid
+
+A guideline for testing could be a pyramid with E2E at the top, integration middle, unit bottom 
+
+  End-to-End
+ Integration
+    Unit
+    
+As you go up, it gets more costly to do, but more confident - and vice versa
+As you go down the pyramid widens, indicating HOW MUCh you should do that type of test BECAUSE OF COST TO DO TEST.  Unit tests are cheap so we should do a lot
+
+This ratio depends on your project
+
+UT are great for quickly testing logic on conditional/loop and complex logic
+
+
+### The tooling
+
+To write tests you can use a testing framework
+
+NUnit - older but good
+MSTest - built into VS
+xUnit - gaining popularity
+
+Each gives a library and test runner
+- utlity library helps you write tests
+- test runner runs the tests and gives you passing/failing
+
+Focus on fundamentals, not tooling
+
+ReSharper's test runner is very effective/productivity booster
+
+
 ### Source code
+
