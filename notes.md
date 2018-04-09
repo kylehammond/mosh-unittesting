@@ -105,3 +105,62 @@ NUnit uses different terms
 
 TestFixture (class)
 Test (method)
+
+
+# Test Driven Development
+AKA Test First
+
+Write tests before writing app/prod code
+
+1. Write a failing test (b/c no code)
+2. Write simplest code that makes test pass
+3. Refactor if necessary
+
+Benefits
+1. Testable source code from get-go
+2. Full coverage by tests
+3. Simpler implementation
+
+Not covered in this course
+
+# Unit tests
+
+Good unit tests are 
+- First class citizens
+- Sould be Clean, readable, maintanable
+  - has single responsibility
+  - ideally less than 10 lines of code
+  - time consuming to debug if big (won't be touched)
+- No logic
+  - Introduces bugs (might make you waste time figuring out bug is code or test)
+- Isolated
+- Not too specific/General
+
+# What to test and what not
+Test the OUTCOME of a function
+  - query functions
+    - return a value
+  - command functions
+    - performs an action which probably changes state/db/etc
+    - may also return value
+
+DON'T test:
+  - language features (ex: properties)
+  - 3rd party code
+
+# Naming
+Projects
+  ProjectName
+  ProjectName.UnitTests
+
+Test Classes
+  ClassName
+  ClassNameTest 
+    One or more Test methods - usually >= exec. paths
+
+Test Methods
+  MethodName_Scenario_ExpectedBehavior
+  If too big of a code method - maybe create it's own test class for method  (ClassName.MethodNameTests)
+
+# Writing a simple unit test
+Avoid arbitrary test values like 952 - people will ask - is this significant?

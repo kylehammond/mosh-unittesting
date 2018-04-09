@@ -52,7 +52,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ReservationTests.cs" />
+    <Compile Include="Fundamentals\MathTests.cs" />
+    <Compile Include="Fundamentals\ReservationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
