@@ -185,3 +185,15 @@ NUnit allows you to condense similar methods
 How to write?
 - TDD
 - write tests that test the RIGHT THING
+
+# Developers who don't write tests
+There's people who think tests are a waste of time
+There's people who think if you don't write tests (or even only do auto tests) you're doing it wrong
+
+The reality is the truth is somewhere in the middle
+
+It depends on the cost of the software bug for your org - however it's usually more expensive to catch down the chain (like prod)
+
+Can be compared to Double entry accounting
+
+# Specific vs general tests
