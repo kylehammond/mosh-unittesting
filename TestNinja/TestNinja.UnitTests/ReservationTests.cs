@@ -24,9 +24,8 @@ namespace TestNinja.UnitTests
         public void CanBeCancelledBy_SameUserCancelling_ReturnsTrue()
         {
             // Arrange
-            var reservation = new Reservation();
             var user = new User();
-            reservation.MadeBy = user;
+            var reservation = new Reservation {MadeBy = user};
 
             // Act
             var result = reservation.CanBeCancelledBy(user);
@@ -36,5 +35,19 @@ namespace TestNinja.UnitTests
 
         }
 
+        [TestMethod]
+        public void CanBeCancelledBy_AnotherUserCancelling_ReturnsFalse()
+        {
+            // Arrange
+            var reservation = new Reservation();
+            var user = new User();
+            
+            // Act
+            var result = reservation.CanBeCancelledBy(user);
+
+            // Assert
+            Assert.IsFalse(result);
+
+        }
     }
 }

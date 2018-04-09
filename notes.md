@@ -97,3 +97,6 @@ Want to
 //Act - call a method/test a method
 
 //Assert - verify that result matches expected behavior
+
+
+Test Methods act as a type of documentation of the code
