@@ -82,7 +82,7 @@ ReSharper's test runner is very effective/productivity booster
 Downloaded the starter source code and complete source code and added to repository.
 
 ### Reservation tests
-Attributes TestClass and TestMethod belong to MSTest framework - testrunner runs at all classes decorated with TestClass then TestMethod and will run tests
+Attributes TestClass and TestMethod belong to MSTest framework (using Microsoft.VisualStudio.TestTools.UnitTesting;)- testrunner runs at all classes decorated with TestClass then TestMethod and will run tests
 
 Naming convention here is ClassnameTest
 
@@ -100,3 +100,8 @@ Want to
 
 
 Test Methods act as a type of documentation of the code
+
+NUnit uses different terms
+
+TestFixture (class)
+Test (method)
