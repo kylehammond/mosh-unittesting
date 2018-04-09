@@ -25,3 +25,17 @@ C:\code\github\mosh-unittesting\TestNinja\TestNinja\obj\Debug\TestNinja.csproj.C
 C:\code\github\mosh-unittesting\TestNinja\TestNinja\obj\Debug\TestNinja.csproj.CopyComplete
 C:\code\github\mosh-unittesting\TestNinja\TestNinja\obj\Debug\TestNinja.dll
 C:\code\github\mosh-unittesting\TestNinja\TestNinja\obj\Debug\TestNinja.pdb
+C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja\bin\Debug\TestNinja.dll.config
+C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja\bin\Debug\TestNinja.dll
+C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja\bin\Debug\TestNinja.pdb
+C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja\bin\Debug\EntityFramework.dll
+C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja\bin\Debug\EntityFramework.xml
+C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja\obj\Debug\TestNinja.csprojResolveAssemblyReference.cache
+C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja\obj\Debug\TestNinja.csproj.CoreCompileInputs.cache
+C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja\obj\Debug\TestNinja.csproj.CopyComplete
+C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja\obj\Debug\TestNinja.dll
+C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja\obj\Debug\TestNinja.pdb
