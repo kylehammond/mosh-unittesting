@@ -81,4 +81,19 @@ ReSharper's test runner is very effective/productivity booster
 ### Source code
 Downloaded the starter source code and complete source code and added to repository.
 
-### 
+### Reservation tests
+Attributes TestClass and TestMethod belong to MSTest framework - testrunner runs at all classes decorated with TestClass then TestMethod and will run tests
+
+Naming convention here is ClassnameTest
+
+"CanBeCancelledBy_Scenario_ExpectedBehavior"
+
+Want to test all scenarios/execution paths
+
+Want to 
+
+//Arrange - initialize objects
+
+//Act - call a method/test a method
+
+//Assert - verify that result matches expected behavior
