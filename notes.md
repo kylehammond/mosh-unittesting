@@ -167,9 +167,15 @@ Avoid arbitrary test values like 952 - people will ask - is this significant?
 
 Don't create global Arangements - could have improper state from test to test - always be fresh
 
-NUnit can help though
+However -
+
+NUnit can help 
 
 Attributes:
 //SetUp 
 //TearDown - often used in integration tests
 
+# Parameterized test methods
+NUnit allows you to condense similar methods
+
+# Ignoring test
