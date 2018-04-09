@@ -179,3 +179,9 @@ Attributes:
 NUnit allows you to condense similar methods
 
 # Ignoring test
+[Ignore("Reason for disabling")]
+
+# Unit Tests should be TRUSTWORTHY
+How to write?
+- TDD
+- write tests that test the RIGHT THING

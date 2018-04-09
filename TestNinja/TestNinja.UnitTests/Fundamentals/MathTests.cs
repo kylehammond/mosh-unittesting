@@ -17,14 +17,14 @@ namespace TestNinja.UnitTests.Fundamentals
 
         [Test]
         [TestCase(1, 2, 3)]
-        [Ignore("Because I wanted to")]
+        //[Ignore("Because I wanted to")]
         public void Add_WhenCalled_ReturnTheSumOfArguments(int a, int b, int expectedResult)
         {
             // Act
-            expectedResult = _math.Add(a, b);
+            var result = _math.Add(a, b);
 
             // Assert
-            Assert.That(expectedResult, Is.EqualTo(expectedResult));
+            Assert.That(result, Is.EqualTo(expectedResult));
         }
 
         [Test]
@@ -34,10 +34,10 @@ namespace TestNinja.UnitTests.Fundamentals
         public void Max_WhenCalled_ReturnsGreaterArgumentUnlessSame(int a, int b, int expectedResult)
         {
             // Act
-            expectedResult = _math.Max(a, b);
+            var result = _math.Max(a, b);
 
             // Assert
-            Assert.That(expectedResult, Is.EqualTo(expectedResult));
+            Assert.That(result, Is.EqualTo(expectedResult));
         }
     }
 }
