@@ -7,6 +7,19 @@ namespace TestNinja.UnitTests.Fundamentals
     public class CustomerControllerTests
     {
         [Test]
+        public void GetCustomer_IdIsNotZero_ReturnOk()
+        {
+            // Arrange
+            var controller = new CustomerController();
+
+            // Act
+            var result = controller.GetCustomer(1);
+
+            // Assert
+            Assert.That(result, Is.TypeOf<Ok>());
+        }
+
+        [Test]
         public void GetCustomer_IdIsZero_ReturnNotFound()
         {
             // Arrange
@@ -22,19 +35,6 @@ namespace TestNinja.UnitTests.Fundamentals
 
             // should be NotFound or one of its derivatives
             //Assert.That(result, Is.InstanceOf<NotFound>());
-        }
-
-        [Test]
-        public void GetCustomer_IdIsNotZero_ReturnOk()
-        {
-            // Arrange
-            var controller = new CustomerController();
-
-            // Act
-            var result = controller.GetCustomer(1);
-
-            // Assert
-            Assert.That(result, Is.TypeOf<Ok>());
         }
     }
 }
