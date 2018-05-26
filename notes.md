@@ -229,3 +229,8 @@ Throws standard exception
 
 Throws nonstandard exception
 * Assert.That(() => logger.Log(error), Throws.Exception.TypeOf<DivideByZeroException>());
+
+
+# Private methods
+DON'T TEST PRIVATE METHODS
+
