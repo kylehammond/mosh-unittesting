@@ -234,3 +234,19 @@ Throws nonstandard exception
 # Private methods
 DON'T TEST PRIVATE METHODS
 
+If you have a public method that calls a large chain of private methods - this might be a code smell
+
+# Handling methods that raise events
+You need to add a handler to your event handler and get back from it what it returns and make sure it's state has changed
+
+# Code coverage tools for .NET
+* Visual Studio Enterprise Edition
+* ReSharper Ultimate (dotCover)
+* NCover (fairly expensive)
+
+# Real world testing
+* If an old app, need to weigh if testing is worth the time taken to refactor 
+* Cost of testing EVERYTHING may easily outweight benefits
+* Startups may not have the time to test all code - but could write test for key parts (might save time on manually testing complicated calculations, etc)
+* Only developer who writes clean and testable code - can't really implement unit testing.. swimming against the river.  Try to educate team and help them.
+
