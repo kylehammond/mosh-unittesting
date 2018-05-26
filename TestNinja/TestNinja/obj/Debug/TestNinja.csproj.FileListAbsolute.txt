@@ -38,4 +38,4 @@ C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja\obj\Debug\TestNinja.cspr
 C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja\obj\Debug\TestNinja.csproj.CopyComplete
 C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja\obj\Debug\TestNinja.dll
 C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja\obj\Debug\TestNinja.pdb
-C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja\obj\Debug\TestNinja.csprojResolveAssemblyReference.cache
+C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja\obj\Debug\TestNinja.csprojAssemblyReference.cache

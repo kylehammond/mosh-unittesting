@@ -214,4 +214,8 @@ See tests
             //Assert.That(result, Does.Contain(3));
             //Assert.That(result, Does.Contain(5));
 
-            
+# Void functions
+Query functions - return a value
+Command functions - change state, value of one or more properties, persist state
+
+Void functions are COMMAND functions

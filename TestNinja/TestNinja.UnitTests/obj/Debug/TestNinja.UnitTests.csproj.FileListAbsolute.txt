@@ -35,7 +35,6 @@ C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja.UnitTests\bin\Debug\Micr
 C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja.UnitTests\bin\Debug\EntityFramework.xml
 C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja.UnitTests\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja.UnitTests\obj\Debug\TestNinja.UnitTests.csprojResolveAssemblyReference.cache
 C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja.UnitTests\obj\Debug\TestNinja.UnitTests.csproj.CoreCompileInputs.cache
 C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja.UnitTests\obj\Debug\TestNinja.UnitTests.csproj.CopyComplete
 C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja.UnitTests\obj\Debug\TestNinja.UnitTests.dll
@@ -49,3 +48,4 @@ C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja.UnitTests\bin\Debug\Mono
 C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja.UnitTests\bin\Debug\Mono.Cecil.Rocks.dll
 C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja.UnitTests\bin\Debug\nunit.framework.dll
 C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja.UnitTests\bin\Debug\nunit.framework.xml
+C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja.UnitTests\obj\Debug\TestNinja.UnitTests.csprojAssemblyReference.cache
