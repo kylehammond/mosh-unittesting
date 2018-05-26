@@ -219,3 +219,13 @@ Query functions - return a value
 Command functions - change state, value of one or more properties, persist state
 
 Void functions are COMMAND functions
+
+
+
+# Methods that throw exceptions
+
+Throws standard exception
+* Assert.That(() => logger.Log(error), Throws.ArgumentNullException);
+
+Throws nonstandard exception
+* Assert.That(() => logger.Log(error), Throws.Exception.TypeOf<DivideByZeroException>());
