@@ -11,7 +11,7 @@ namespace TestNinja.Fundamentals
         
         public void Log(string error)
         {
-            if (String.IsNullOrWhiteSpace(error))
+            if (string.IsNullOrWhiteSpace(error))
                 throw new ArgumentNullException();
                 
             LastError = error; 
@@ -19,6 +19,11 @@ namespace TestNinja.Fundamentals
             // Write the log to a storage
             // ...
 
+            OnErrorLogged(Guid.NewGuid());
+            }
+
+        protected virtual void OnErrorLogged(Guid errorId)
+        {
             ErrorLogged?.Invoke(this, Guid.NewGuid());
         }
     }
