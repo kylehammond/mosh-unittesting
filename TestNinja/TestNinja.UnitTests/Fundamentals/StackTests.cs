@@ -16,16 +16,21 @@ namespace TestNinja.UnitTests.Fundamentals
         private Stack<object> _stack;
 
         [Test]
+        public void Count_StackEmpty_ReturnZero()
+        {
+            // Need to test because our other tests depend on this working
+            Assert.That(_stack.Count, Is.EqualTo(0));
+        }
+
+
+        [Test]
         public void Push_WhenCalled_ObjectAddedToList()
         {
-            // Arrange
-            var originalCount = _stack.Count;
-
             // Act
-            _stack.Push(4);
-
+            _stack.Push(1);
+            
             // Assert
-            Assert.That(_stack.Count == originalCount + 1);
+            Assert.That(_stack.Count == 1);
 
             // I can't peek to find what I added and I can't check the list because it's private...
         }
@@ -76,7 +81,7 @@ namespace TestNinja.UnitTests.Fundamentals
             Assert.That(result, Is.EqualTo(3));
             Assert.That(_stack.Count == originalCount);
         }
-        
+
         [Test]
         public void Peek_WhenListEmpty_ThrowInvalidOperationException()
         {
