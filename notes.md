@@ -266,3 +266,6 @@ Need to refactor existing code to be loosely coupled to make it more testable
 Remove new operator from class - must pass in with interface (basic Dependency Injection)
 
 He says Mocks and Stubs are both Fakes and that new frameworks don't differentiate.  So we don't need to call these things anything but "Fake_"
+
+# Dependency Injection
+
