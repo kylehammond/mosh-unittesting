@@ -297,3 +297,14 @@ Frameworks:
 
 ! Reserve mocks for only external dependencies !
 - it causes a lot of fat setup code
+
+
+# Interaction testing
+Again, only for external resources
+
+Need to verify class we're testing interacts with another class properly
+
+Verify that the right method called with right arguments
+
+Test the external behavior not the implementation
+
