@@ -308,3 +308,9 @@ Verify that the right method called with right arguments
 
 Test the external behavior not the implementation
 
+# Be careful
+Use mocks as little as possible
+ - Only for external resources
+ - The one exception is for complicated execution paths (if one method depends on another.. you can mock either to stand in/double)
+
+Mocks let your tests run quickly

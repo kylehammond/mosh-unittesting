@@ -1,5 +1,4 @@
-﻿using System.Runtime.Serialization.Formatters;
-using Moq;
+﻿using Moq;
 using NUnit.Framework;
 using TestNinja.Mocking;
 
