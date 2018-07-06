@@ -269,3 +269,31 @@ He says Mocks and Stubs are both Fakes and that new frameworks don't differentia
 
 # Dependency Injection
 
+Frameworks:
+* NInject  < he recommends
+* StructureMap
+* Sprint.NET
+* Autofac  < he recommends
+* Unity
+
+Container - big mapping of interfaces and implementations
+
+if Implementations require dependencies, it gets those too, creating an 'object graph'
+
+this is out of scope
+
+don't get hung up on the tooling
+
+# Mocking (isolation) Frameworks
+Helps you create your fake/mock objects so you don't need to create them each by hand for each test.  
+
+For example, the FakeFileReader.Read we made returns string.empty .. if we change that to be more realistic, our test will break
+
+Frameworks:
+* Moq < he recommends
+* NSubstitute
+* FakeItEasy
+* Rhino Mocks
+
+! Reserve mocks for only external dependencies !
+- it causes a lot of fat setup code

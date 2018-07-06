@@ -58,3 +58,12 @@ C:\code\github\mosh-unittesting\TestNinja\TestNinja.UnitTests\bin\Debug\Mono.Cec
 C:\code\github\mosh-unittesting\TestNinja\TestNinja.UnitTests\bin\Debug\nunit.framework.dll
 C:\code\github\mosh-unittesting\TestNinja\TestNinja.UnitTests\bin\Debug\nunit.framework.xml
 C:\code\github\mosh-unittesting\TestNinja\TestNinja.UnitTests\obj\Debug\TestNinja.UnitTests.csprojAssemblyReference.cache
+C:\code\github\mosh-unittesting\TestNinja\TestNinja.UnitTests\bin\Debug\Castle.Core.dll
+C:\code\github\mosh-unittesting\TestNinja\TestNinja.UnitTests\bin\Debug\Moq.dll
+C:\code\github\mosh-unittesting\TestNinja\TestNinja.UnitTests\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\code\github\mosh-unittesting\TestNinja\TestNinja.UnitTests\bin\Debug\System.ValueTuple.dll
+C:\code\github\mosh-unittesting\TestNinja\TestNinja.UnitTests\bin\Debug\Castle.Core.xml
+C:\code\github\mosh-unittesting\TestNinja\TestNinja.UnitTests\bin\Debug\Moq.pdb
+C:\code\github\mosh-unittesting\TestNinja\TestNinja.UnitTests\bin\Debug\Moq.xml
+C:\code\github\mosh-unittesting\TestNinja\TestNinja.UnitTests\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\code\github\mosh-unittesting\TestNinja\TestNinja.UnitTests\bin\Debug\System.ValueTuple.xml

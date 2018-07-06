@@ -1,20 +1,31 @@
-﻿using NUnit.Framework;
+﻿using System.Runtime.Serialization.Formatters;
+using Moq;
+using NUnit.Framework;
 using TestNinja.Mocking;
-using TestNinja.UnitTests.Fakes;
 
 namespace TestNinja.UnitTests.Mocking
 {
     [TestFixture]
     public class VideoServiceTests
     {
+        private VideoService _videoService;
+        private Mock<IFileReader> _fileReader;
+
+        [SetUp]
+        public void Setup()
+        {
+            _fileReader = new Mock<IFileReader>();
+            _videoService = new VideoService(_fileReader.Object);
+        }
+
         [Test]
         public void ReadVideoTitle_EmptyFile_ReturnError()
         {
             // arrange
-            var service = new VideoService(new FakeFileReader());
-
+            _fileReader.Setup(fr => fr.Read("video.txt")).Returns("");
+            
             // act
-            var result = service.ReadVideoTitle();
+            var result = _videoService.ReadVideoTitle();
 
             // assert
             Assert.That(result, Does.Contain("error").IgnoreCase);
