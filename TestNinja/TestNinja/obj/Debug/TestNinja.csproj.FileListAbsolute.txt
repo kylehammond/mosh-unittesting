@@ -20,7 +20,6 @@ C:\code\github\mosh-unittesting\TestNinja\TestNinja\bin\Debug\Newtonsoft.Json.dl
 C:\code\github\mosh-unittesting\TestNinja\TestNinja\bin\Debug\EntityFramework.xml
 C:\code\github\mosh-unittesting\TestNinja\TestNinja\bin\Debug\EntityFramework.SqlServer.xml
 C:\code\github\mosh-unittesting\TestNinja\TestNinja\bin\Debug\Newtonsoft.Json.xml
-C:\code\github\mosh-unittesting\TestNinja\TestNinja\obj\Debug\TestNinja.csprojResolveAssemblyReference.cache
 C:\code\github\mosh-unittesting\TestNinja\TestNinja\obj\Debug\TestNinja.csproj.CoreCompileInputs.cache
 C:\code\github\mosh-unittesting\TestNinja\TestNinja\obj\Debug\TestNinja.csproj.CopyComplete
 C:\code\github\mosh-unittesting\TestNinja\TestNinja\obj\Debug\TestNinja.dll
@@ -39,3 +38,4 @@ C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja\obj\Debug\TestNinja.cspr
 C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja\obj\Debug\TestNinja.dll
 C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja\obj\Debug\TestNinja.pdb
 C:\Users\Kyle\Code\mosh-unittesting\TestNinja\TestNinja\obj\Debug\TestNinja.csprojAssemblyReference.cache
+C:\code\github\mosh-unittesting\TestNinja\TestNinja\obj\Debug\TestNinja.csprojAssemblyReference.cache

@@ -250,3 +250,19 @@ You need to add a handler to your event handler and get back from it what it ret
 * Startups may not have the time to test all code - but could write test for key parts (might save time on manually testing complicated calculations, etc)
 * Only developer who writes clean and testable code - can't really implement unit testing.. swimming against the river.  Try to educate team and help them.
 
+
+# External resources
+Unit tests should not touch external resources, these are INTEGRATION TESTS
+
+To test inputs we use Test Doubles/Fake Objects  (mock?)
+
+# Loosley coupled / Fakes
+Need to refactor existing code to be loosely coupled to make it more testable
+
+1. Extract code using external resource into separate class (isolate from code)
+2. Extract interface from this class
+3. Modify class to talk to interface instead of concrete so you can pass in your fake object
+
+Remove new operator from class - must pass in with interface (basic Dependency Injection)
+
+He says Mocks and Stubs are both Fakes and that new frameworks don't differentiate.  So we don't need to call these things anything but "Fake_"
