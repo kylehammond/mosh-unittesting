@@ -1,2 +1,4 @@
-# mosh-unittesting
-My code/notes for this course from Mosh
+# Mosh
+This was my code and notes for the programmingwithmosh.com unit testing training. 
+
+I will leave it for reference.
